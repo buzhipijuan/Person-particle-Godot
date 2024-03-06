@@ -1,0 +1,12 @@
+场景和节点
+场景是节点的集合，一个场景可以成为另一个场景的子节点。
+——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+代码
+extends Node2D
+var test = 10/string/[1,2]// var test01: float = 10.0/// 定义 变量常量/指定数据类型变量常量
+const test = 10 // const test01: int = 1
+func _process(delta):
+    position = vector2(1,1)// rotation_degrees = 45  /// 使用代码对节点属性进行更改
+    position += 10*delta // scale += 0.1*delta 
+func test_function():
+    print("this is a DIY function")
