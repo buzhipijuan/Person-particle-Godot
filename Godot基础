@@ -30,4 +30,4 @@ func _process(delta):
     position += 10*delta // scale += 0.1*delta 
 func test_function():
     print("this is a DIY function")
-提交到本地仓库
+提交到本地仓库 推送到Github
